@@ -1,147 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Gaegu:300,400,700');
-
-html, body {
-    font-family: 'Gaegu', sans-serif;
-    font-size: 100%;
+*{
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
     margin: 0 auto;
-    padding: 0;
+    padding: 10px;
+    
 }
-/*body{
-    background-image:url(./images/배경\ 이미지\ 소스123.jpg) ;
-    width: 50%;
-    box-sizing: border-box;
-}*/
-
 body{
-    box-sizing: border-box;
-    background-image:url(./images/배경\ 이미지\ 소스123.jpg);
+    background-image: url(./images/배경이미지49.jpg) ;
 }
 section{
-    border: 20px solid saddlebrown;
-    border-radius: 20px;
-    width: 52vw;
-    position: relative;/*네 부모가 되라.*/
-    left: 22%;
-   
-}
-
-
-h1, h3, h4{
-    color: orange;
-    text-shadow: 0px 1px 0px palevioletred;
-    margin: 0 0 50px 0;
-    padding: 0;
-    
-}
-
-
-h1{     
-    text-align: center;
-    background-color: bisque;
-    font-size: 2.5rem;
-}
-
-h3, p, table{
-    padding: 0 0 0 50px;
-    color: rgb(248, 161, 0);
-    text-shadow: 0px 1px 0px greenyellow;
-}
-
+    background-color: #C0E8EC;
+    width: 600px;
+    height: 650px;
+    border-radius: 30px;
+} 
 h3{
-    font-size: 2rem;
-    padding: 0;
-    width: 80rem;
-    margin-left: 20px;
-}
-
-p{
-    font-size: 1.8rem;
-    line-height: 1.8;
-}
-
-/*.hello{
-    padding-bottom: 5rem;
-    margin-bottom: 5rem;
-}*/
-article:first-of-type p{
-    text-shadow:
-    1px 1px 2px rgb(248, 244, 187),
-    0 0 1em orange,
-    0 0 0.2em orange;
-    color: white;
-}
-
-figure{
-
-    display: flex; 
-    background-image:
-           repeating-linear-gradient( /* 반복 선형 그라데이션 */
-              45deg, /* 45° 회전시켜 대각선으로 만듦 */
-              #e5c046 0px, #e5c046 1px, /* 선의 색상과 폭 지정*/
-              rgba(0 0 0 / 0) 0%, rgba(0 0 0 / 0) 50% /* 선 사이의 여백 지정 */
-           ),
-           repeating-linear-gradient( /* 반복 선형 그라데이션 */
-              -45deg, /* -45° 회전시켜 대각선으로 만듦 */
-              #e5c046 0px, #e5c046 1px, /* 선의 색상과 폭 지정 */
-              rgba(0 0 0 / 0) 0%, rgba(0 0 0 / 0) 50% /* 선 사이의 여백 지정 */
-           );
-    background-size: 8px 8px; /* 선형 그라데이션을 지정한 background의 크기 */
-    background-repeat: repeat-x; /* 배경 반복 지정 */
-    background-position: center bottom;
+     width: 500px;
+     height: 50px;
+    background-color: #C0E8EC;
+    border-radius: 20px;
+    border: 5px solid white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
-    /*가로모드로 바꿔줘 플렉서블(유동적인)한 큰 칸*/
-    /*flex-wrap:wrap; 요소가 넘치게 될때 줄바꿈 처리       */
-    /* flex-direction: column-;/*방향 row- 행-가로-x axis column- 열-세로-y ax*/
 }
-
-figure img{
+.p1{
+    text-shadow: 1px 1px 1px rgb(rgb(255, 230, 0));
+}
+img{
     width: 160px;
     height: 160px;
+    border-radius: 80px;
+    margin: 3%;
     filter: drop-shadow(15px 15px 0 orange);
 }
-
-
-.info{
-    width: 800px;
-    height: 600px;
-}
-.info_1{
+button{
     width: 300px;
-    float: left;
+    height: 90px;
+    margin: 10px;
+    background-color: #FE979D;
+    color: aliceblue;
+    border-radius: 20px ;
+    border-color: white ;
     
 }
-.info_2{
-    width: 300px;
-    float: right;
-}
-.info_3{
-    clear: both;
-}
-
-
-.info_1, .info_2, .info_3{
-    margin-left: 70px;
-    color: orangered;
-}
-
-table{
-    width: 700px;
-    margin: 10%;
-    border-collapse:20px ;
-
-}
-.fallinluv{
-    text-decoration: orange wavy underline 2px;
-
-}
-.emll{
-    text-decoration: orange wavy underline 2px;
-}
-.year{
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0) 70%, orange 30%);}/*A의 색과 값, B의 색과 값*/
-
-/*.callme{
-    box-decoration-break 각 행별로 동일한 스타일을 지정받을수 있다.
-}*/
-
